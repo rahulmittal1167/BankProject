@@ -1,0 +1,26 @@
+
+h1{
+ 
+    color: aliceblue;
+    font-size: 8;
+}
+marquee {
+          width: 100%;
+          padding: 10px 0;
+          background-color: lightblue;
+          color:blanchedalmond;
+          height:100%;
+          Font-size :300%;
+       
+        }
+.btn{
+  color: yellow;
+  width: 120px;
+}
+.mainpage{
+  background-color:rgba(0,0,0,0.4);
+  color: white;
+  width:30%;
+  height:100%;
+  
+}

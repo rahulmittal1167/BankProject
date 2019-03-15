@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "name": "rahul",
+      "age": 23,
+      "dob": "23/11/1999",
+      "fname": "bhagwan das",
+      "bg": "O+",
+      "address": "dsfsdf",
+      "contact": 2323232323,
+      "qual": "btech",
+      "gender": "male",
+      "pass1": "root",
+      "pass2": "root"
+    },
+    {
+      "id": "2",
+      "name": "paras",
+      "age": 34,
+      "dob": "2019-03-21",
+      "fname": "qwert",
+      "bg": "s#",
+      "add": "ergerg",
+      "contact": 12121212,
+      "qual": "mca",
+      "gender": "MALE",
+      "pass1": "po",
+      "pass2": "po"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <h1>Welcome to Loan services</h1>
+  
+    <hr><hr>
+    <h3>Emi Calculator</h3>
+    <h2>Type of Loan:<br>
+    <select (change)="display(op.value)" #op>
+      <option value="1">HOME LOAN</option>
+      <option value="2">CAR LOAN</option>
+      <option value="3">EDUCATION LOAN</option>
+      <option value="4">Personal LOAN</option>
+    </select>
+    <div [ngSwitch]="option">
+      <p *ngSwitchCase="1"><app-homelo></app-homelo></p>
+      <p *ngSwitchCase="2"><app-car></app-car></p>
+      <p *ngSwitchCase="3"><app-edulo></app-edulo></p>
+      <p *ngSwitchCase="4"><app-personallo></app-personallo></p>
+    </div>
+    </h2>
+   
+  </body>
+</html>

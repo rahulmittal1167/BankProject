@@ -1,0 +1,84 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+.background
+{
+
+height : 100%;
+width : 100%;
+background-size : 100% 100%;
+opacity : 0.9;
+}
+.menu
+{
+    height : 130px;
+    width : 100%;
+background-color:rgba(0,0,0,0.5);
+}
+.leftMenu
+{
+    
+    width : 25%;
+    float : left;
+    
+
+}
+.leftMenu h2{
+font-size : 30px;
+padding-left : 40px;
+color : white;
+font-weight : bold;
+font-family: sans-serif;
+}
+.rightMenu
+{
+    
+    width : 75%;
+    float : left;
+    
+ 
+}
+.rightMenu ul li{
+    float : left;
+    margin-left : 60px;
+    text-transform : uppercase;
+    font-family: sans-serif;
+    color  : white;
+    font-size  : 20px;
+    line-height : 130px; 
+    list-style : none;
+}
+.rightMenu ul
+{
+    margin-left: 600px;
+}
+.rightMenu ul li:hover
+{
+    color : orange;
+    text-decoration: underline;
+    
+}
+#a1
+{
+    color : orange;
+}
+#i1
+{
+    height : 150px;
+    width : 200px;
+    margin-left : 50px;
+}
+
+.fixed-footer{
+    width: 100%;
+    font-size: 22px;
+    font-family: sans-serif;
+    position: fixed;        
+    background: rgba(0,0,0,0.5);;
+    padding: 15px 0;
+    color: white;
+    bottom: 0;
+    text-align: center;
+}   

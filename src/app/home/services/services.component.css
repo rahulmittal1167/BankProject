@@ -1,0 +1,41 @@
+body{
+   
+    background-blend-mode: soft-light;
+}
+
+marquee {
+      width: 100%;
+      padding: 10px 0;
+      color:black;
+      Font-size :300%;
+    }
+    h1{
+        color:black;
+        text-align: center;
+    }
+ 
+    .list{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color:black;
+    }
+    .leftdiv{
+        float: left;
+        margin: 10px;
+        margin-left: 27px;
+    }
+    .middlediv{
+        float: left;
+        margin: 10px;
+        margin-left: 27px;
+    }
+    .middle1div{
+        float: left;
+        margin: 10px;
+        margin-left: 27px;
+    }
+    .rightdiv{
+        float: left;
+        margin:10px;
+        margin-left: 27px;
+    }

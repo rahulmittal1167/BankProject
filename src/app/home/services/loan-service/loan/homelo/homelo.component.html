@@ -1,0 +1,21 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <h1>Welcome to Home Loan services</h1>
+  
+
+    <h3>Emi Calculator</h3>
+   
+    <form class="container4" [formGroup]="form" (ngSubmit)="onSubmit(form.value)" >
+      Principal Amount: <input type="text" formControlName="pamt"><br>
+      Tenure:<input type="text" formControlName="tenure"  ><br>
+      Rate Of Interest:<input type="text" [value]="rate" disabled=true formControlName="roi" ><br>
+      EMI : {{EMI}}<br>
+
+      <input type="button"  (click)="abc(p.value,t.value)" value="Calculate">&nbsp;
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>

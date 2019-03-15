@@ -1,0 +1,49 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <title> 
+         User Details
+    </title>
+   
+       
+    </head>
+    <body>
+           <div>
+         <h1 >MITTAL'S BANK OF INDIA</h1>
+        
+        <div class="fo1">
+         <fieldset>
+             <legend>Personal Information</legend>
+         <form class="container1" [formGroup]="form" (ngSubmit)="onSubmit(form.value)" >
+             <h2>
+                 Enter Id:<input type="text" name="t0" formControlName="id"><br>
+                Enter name:<input type="text" name="t1" formControlName="name"><br>     
+                Enter Age: <input type="number" name="t2" formControlName="age"><br>
+                Enter DOB: <input type="date" name="t3" formControlName="dob"><br>
+                Enter Father Name:<input type="text" name="t4" formControlName="fname"><br>
+                Blood Group:<input type="text" name="t5" formControlName="bg"><br>
+                Address:<input type="text" name="t6" formControlName="add"><br>
+                Contact number:<input type="number" name="t7" formControlName="contact"><br>
+                Qualification:
+                <select  formControlName="qual">
+                    <option>Select Qualification</option>
+                    <option>btech</option>
+                    <option>Mtech</option>
+                    <option>bca</option>
+                    <option>mca</option>
+                    <option>be</option>
+                </select><br>
+                Gender: <input type="radio" name="gender" value="MALE" formControlName="gender">male
+                        <input type="radio" name="gender" value="FEMALE" >Female<br>
+                Password:<input type="password" name="pass1" formControlName="pass1" ><br>
+                Re-EnterPassword:<input type="password" name="pass2" formControlName="pass2" ><br>
+                        <input type="submit" name="b1" value="SUBMIT" (click)="postItem(form.value)" [disabled]="!form.valid">
+                        <input type="reset" name="b1" value="RESET">
+                    </h2>
+         </form>
+        </fieldset>
+    </div>
+        </div>
+    </body>
+</html>
